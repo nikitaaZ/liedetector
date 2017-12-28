@@ -1,0 +1,278 @@
+.container-fluid{
+	padding:2% 5%;
+}
+.btn {
+	background: #03a67b;
+	color: #fff;
+	font-size: 	1.2vw;
+}
+.gray {
+	background: #36393e;
+	color:#fff;
+}
+section {
+	padding-top: 5%;
+}
+section h2 {
+	font-family: url(../fonts/MyriadPro-Bold.otf);
+	font-weight: 700;
+	font-size: 3vw;
+}
+.container-fluid p{
+	color: 	black;
+	opacity: 0.5;
+	font-family: url(../fonts/MyriadPro-Regular.otf);
+	font-size: 1.2vw;
+}
+.gray>.container-fluid p {
+    color: white;
+}
+section>.container-fluid>.row-fluid>p {
+	font-size: 1.7vw;
+}
+/*-------------------------Common-----------------------------------------------------*/
+.navbar-default {
+	z-index: 1;
+margin: 0;
+padding: 0;
+border: 0;
+background-color: #fff;
+padding:2% 5%;	
+}	
+.navbar img {
+	width: 90px;
+	height:auto;
+}
+.navbar h1 {
+	font-weight: 800;
+	text-decoration: none;	
+	color: #03a67b;
+	font-size: 3vh;
+}
+.navbar-header a:hover, .navbar-header a:focus{
+		text-decoration: none;	
+}
+.navbar-right {
+	font-size: 	2.5vh;
+	padding-top: 1vw;
+}
+/*------------------------------------Navbar---------------------------------------------------*/ 
+header {
+	background: url(../img/head2.png) no-repeat;
+	background-position: 80%	100%;
+	background-size: 23vw;
+}
+#kek{
+	position: absolute;
+	z-index:1;
+	top:13.5vh;
+	left: 110vh;
+	max-height: 44vw;
+}
+.container-fluid h1{
+	margin-top: 10vh;
+	font-family: playfairdisplay;
+	font-weight: 800;
+	font-size: 	4vw;
+}
+header p {
+	color: 	black !important; 
+	opacity: 1 !important;
+	font-size: 1.2vw;
+	width: 	75%;
+    margin-bottom: 0;
+	padding-bottom: 0%;
+}
+/*--------------------------------header-----------------------------------*/
+video {
+	height: auto;
+	width: 	45vw;
+	margin-bottom: 3vw;
+}
+#video h2 {
+	font-size:  3vw;
+	margin-top: 5vw;
+}
+#video p {
+		width: 	75%;
+}
+/*--------------------------------VIDEO--------------------------------------------*/ 
+#prom p{
+	opacity: 1;
+	width: 85%;
+	margin-left: 	6vw;
+	margin-bottom: 5vw;
+	font-size: 	1.5vw;
+	color: 	#464c50;
+	text-align: center;
+}
+/*------------------------PROM------------------------------------*/
+#soc img{
+	margin-top: 6vw;
+}
+#soc .col-lg-4 p{
+	opacity: 1;
+	font-weight: 700;
+	margin-top: 1vw;
+	margin-bottom: 4vw;
+}
+/*------------------------SOC.NET---------------------------------*/
+#services .col-lg-4{
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+}
+#services a {
+	text-align: center;
+	color: 	black;			
+}
+#services img{
+    height: 32vh;
+    width: auto;
+}
+#services h4 {
+	margin-top: 2vw;
+	font-weight: 600;
+	margin-bottom: 	1vw;		
+}
+#services p{
+    margin-bottom: 	2vw;
+}
+#services a:hover, .navbar-header a:focus{
+		text-decoration: none;	
+}
+/*------------------------SERVICES--------------------------------*/
+#message span {
+	opacity: 1;
+	font-size: 	1.5vw;
+	color: 	#fff;
+}
+#message a {
+	color: 	#fff;
+}
+#message h3{
+		font-weight: 	700;	
+}
+.lined {
+	border-bottom: 2px solid #fff;
+	 padding-bottom: 1vw; 
+	 display: block; 
+	 width: 60%;
+}
+button{
+	text-align: left;
+	font-size: 1.5vw;
+}
+input{
+	margin-bottom: 2vw;
+}
+.form-control {
+    resize: none;
+	border-radius: 10px;
+	padding: 3% 3%;
+	font-size: 1.5vw;
+	border: 3px solid #fff;
+}
+/*------------------------MESSAGE---------------------------------*/
+/*---------------------FOOTER-------------------*/
+footer .navbar-nav {
+    float: none;
+    text-align: center;
+    }
+footer li a {
+    font-family: url(../fonts/Invisible-Light 2.otf), MyraidPro-Regular;
+    font-size: 2.5vh; 
+    letter-spacing: 5px;
+    color: black;
+    text-align: center;
+}
+footer .navbar-nav li {
+float: none;
+display: inline-block;
+}
+li a:hover, li a:focus, li a:active{
+    color: black;
+    text-decoration: none;	
+}
+@media only screen and (max-device-width:480px){
+    /*mobile*/
+    .navbar img {
+	width: 65px;
+	height:auto;
+    }
+    .navbar h1 {
+	font-size: 14px;
+    }
+    header{
+        min-height: 100vh;
+        max-height: 120vh;
+        background: none;
+    }
+    .container-fluid h1{
+	margin-top: 0vh;
+	font-family: playfairdisplay;
+	font-weight: 800;
+	font-size: 	8vw;
+    text-align: center;
+    }
+    .container-fluid p{
+	font-size: 4vw;
+    }    
+    header p {
+	color: 	black !important; 
+	opacity: 1 !important;
+	font-size: 5.5vw;
+	width: 	76%;
+    margin-bottom: 0;
+	padding-bottom: 0%;
+    }
+    .btn {
+	background: #03a67b;
+	color: #fff;
+	font-size: 	4vw;
+    }
+    header .btn{
+        margin: 25%;
+    }
+    #video h2 {
+        text-align: center;
+	font-size:  7vw;
+    padding-left: 1vw;
+	margin-top: 5vw;
+    }
+    #video p {
+		width: 	100%;
+        text-align: center;
+    }
+    section h2 {
+	font-size: 7vw;
+    }
+    #prom p{
+	font-size: 	5vw;
+    }
+    section>.container-fluid>.row-fluid>p {
+	font-size: 4vw;
+    }
+    #services img{
+        height: 25vh;
+    }
+    #message span {
+	opacity: 1;
+	font-size: 	5vw;
+	color: 	#fff;
+    width: 100%;
+    }
+    .form-control {
+    resize: none;
+	border-radius: 3px;
+	padding: 7% 5%;
+	font-size: 5vw;
+	border: 2px solid #fff;
+    }
+    body{
+        width: 100vw;
+    }
+    footer .navbar-nav li {
+    float: none;
+    display: block;
+}
+}
