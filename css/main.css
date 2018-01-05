@@ -30,6 +30,23 @@ section h2 {
 section>.container-fluid>.row-fluid>p {
 	font-size: 1.7vw;
 }
+.popup.active {
+  display: block;
+  opacity: 1;
+}
+.popup {
+  display: none;
+  width: 960px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding-bottom: 84px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   z-index: 2;
+}
 /*-------------------------Common-----------------------------------------------------*/
 .navbar-default {
 	z-index: 1;
